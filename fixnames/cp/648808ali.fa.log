@@ -1,0 +1,629 @@
+IQ-TREE multicore version 1.6.1 for Linux 64-bit built Feb 16 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    it038094 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s 648808ali.fa -m LG+G+F -bb 1000 -wbtl -bnni
+Seed:    115065 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jul 30 08:32:52 2019
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file 648808ali.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 272 sequences with 4099 columns, 3215 distinct patterns
+1462 parsimony-informative, 1138 singleton sites, 1499 constant sites
+WARNING: Some sequence names are changed as follows:
+Pongo_abelii_(Orangutan)_00000000501_ZNF648 -> Pongo_abelii__Orangutan__00000000501_ZNF648
+Lepisosteus_oculatus_(Spotted_gar)_00000021840_ZNF648 -> Lepisosteus_oculatus__Spotted_gar__00000021840_ZNF648
+Ailuropoda_melanoleuca_(Panda)_00000021205_ZNF648 -> Ailuropoda_melanoleuca__Panda__00000021205_ZNF648
+Latimeria_chalumnae_(Coelacanth)_00000006806_ZNF648 -> Latimeria_chalumnae__Coelacanth__00000006806_ZNF648
+Oreochromis_niloticus_(Tilapia)_00000024204_ZNF648 -> Oreochromis_niloticus__Tilapia__00000024204_ZNF648
+Poecilia_formosa_(Amazon_molly)_00000020976_ZNF648 -> Poecilia_formosa__Amazon_molly__00000020976_ZNF648
+Mustela_putorius_furo_(Ferret)_00000019891_ZNF648 -> Mustela_putorius_furo__Ferret__00000019891_ZNF648
+Chlorocebus_sabaeus_(Vervet-AGM)_00000017756_ZNF648 -> Chlorocebus_sabaeus__Vervet-AGM__00000017756_ZNF648
+Otolemur_garnettii_(Bushbaby)_00000017241_ZNF648 -> Otolemur_garnettii__Bushbaby__00000017241_ZNF648
+Chinchilla_lanigera_(Long-tailed_chinchilla)_00000025961_ZNF648 -> Chinchilla_lanigera__Long-tailed_chinchilla__00000025961_ZNF648
+Sus_scrofa_(Pig)_00000016480_ZNF648 -> Sus_scrofa__Pig__00000016480_ZNF648
+Rattus_norvegicus_(Rat)_00000044433_ZNF648 -> Rattus_norvegicus__Rat__00000044433_ZNF648
+Ictidomys_tridecemlineatus_(Squirrel)_00000016585_ZNF648 -> Ictidomys_tridecemlineatus__Squirrel__00000016585_ZNF648
+Cricetulus_griseus_(Chinese_hamster_CHOK1GS)_00001005615_ZNF648 -> Cricetulus_griseus__Chinese_hamster_CHOK1GS__00001005615_ZNF648
+Saimiri_boliviensis_boliviensis_(Bolivian_squirrel_monkey)_00000016750_ZNF648 -> Saimiri_boliviensis_boliviensis__Bolivian_squirrel_monkey__00000016750_ZNF648
+Nomascus_leucogenys_(Gibbon)_00000032941_ZNF648 -> Nomascus_leucogenys__Gibbon__00000032941_ZNF648
+Pan_paniscus_(Bonobo)_00000001770_ZNF648 -> Pan_paniscus__Bonobo__00000001770_ZNF648
+Pan_troglodytes_(Chimpanzee)_00000076902_ZNF648 -> Pan_troglodytes__Chimpanzee__00000076902_ZNF648
+Gorilla_gorilla_gorilla_(Gorilla)_00000042973_ZNF648 -> Gorilla_gorilla_gorilla__Gorilla__00000042973_ZNF648
+Mus_pahari_(Shrew_mouse)_0075728_ZNF648 -> Mus_pahari__Shrew_mouse__0075728_ZNF648
+Capra_hircus_(Goat)_00000000732_ZNF648 -> Capra_hircus__Goat__00000000732_ZNF648
+Mus_spretus_(Algerian_mouse)_0021511_ZNF648 -> Mus_spretus__Algerian_mouse__0021511_ZNF648
+Mus_caroli_(Ryukyu_mouse)_0020450_ZNF648 -> Mus_caroli__Ryukyu_mouse__0020450_ZNF648
+Felis_catus_(Cat)_00000001240_ZNF648 -> Felis_catus__Cat__00000001240_ZNF648
+Panthera_tigris_altaica_(Tiger)_00000002209_ZNF648 -> Panthera_tigris_altaica__Tiger__00000002209_ZNF648
+Panthera_pardus_(Leopard)_00000024329_ZNF648 -> Panthera_pardus__Leopard__00000024329_ZNF648
+Danio_rerio_(Zebrafish)_00000132889_ZNF648 -> Danio_rerio__Zebrafish__00000132889_ZNF648
+Callithrix_jacchus_(Marmoset)_00000008421_ZNF648 -> Callithrix_jacchus__Marmoset__00000008421_ZNF648
+Acanthochromis_polyacanthus_(Spiny_chromis)_00000029706_ZNF648 -> Acanthochromis_polyacanthus__Spiny_chromis__00000029706_ZNF648
+Labrus_bergylta_(Ballan_wrasse)_00000000930_ZNF648 -> Labrus_bergylta__Ballan_wrasse__00000000930_ZNF648
+Amphilophus_citrinellus_(Midas_cichlid)_00000020042_ZNF648 -> Amphilophus_citrinellus__Midas_cichlid__00000020042_ZNF648
+Periophthalmus_magnuspinnatus_(Periophthalmus_magnuspinnatus)_00000026912_ZNF648 -> Periophthalmus_magnuspinnatus__Periophthalmus_magnuspinnatus__00000026912_ZNF648
+Stegastes_partitus_(Bicolor_damselfish)_00000011501_ZNF648 -> Stegastes_partitus__Bicolor_damselfish__00000011501_ZNF648
+Amphiprion_percula_(Orange_clownfish)_00000033184_ZNF648 -> Amphiprion_percula__Orange_clownfish__00000033184_ZNF648
+Cynoglossus_semilaevis_(Tongue_sole)_00000000509_ZNF648 -> Cynoglossus_semilaevis__Tongue_sole__00000000509_ZNF648
+Anabas_testudineus_(Climbing_perch)_00000012577_ZNF648 -> Anabas_testudineus__Climbing_perch__00000012577_ZNF648
+Oryzias_latipes_(Japanese_medaka_HdrR)_00020000599_ZNF648 -> Oryzias_latipes__Japanese_medaka_HdrR__00020000599_ZNF648
+Haplochromis_burtoni_(Burton's_mouthbrooder)_00000009700_ZNF648 -> Haplochromis_burtoni__Burton_s_mouthbrooder__00000009700_ZNF648
+Oryzias_latipes_(Japanese_medaka_HdrR)_00000035493_ZNF648 -> Oryzias_latipes__Japanese_medaka_HdrR__00000035493_ZNF648
+Poecilia_reticulata_(Guppy)_00000020488_ZNF648 -> Poecilia_reticulata__Guppy__00000020488_ZNF648
+Scleropages_formosus_(Asian_bonytongue)_00015017755_ZNF648 -> Scleropages_formosus__Asian_bonytongue__00015017755_ZNF648
+Poecilia_mexicana_(Shortfin_molly)_00000028674_ZNF648 -> Poecilia_mexicana__Shortfin_molly__00000028674_ZNF648
+Fundulus_heteroclitus_(Mummichog)_00000012681_ZNF648 -> Fundulus_heteroclitus__Mummichog__00000012681_ZNF648
+Esox_lucius_(Northern_pike)_00000026712_ZNF648 -> Esox_lucius__Northern_pike__00000026712_ZNF648
+Ictalurus_punctatus_(Channel_catfish)_00000017168_ZNF648 -> Ictalurus_punctatus__Channel_catfish__00000017168_ZNF648
+Cyprinodon_variegatus_(Sheepshead_minnow)_00000026614_ZNF648 -> Cyprinodon_variegatus__Sheepshead_minnow__00000026614_ZNF648
+Astyanax_mexicanus_(Mexican_tetra)_00000031598_ZNF648 -> Astyanax_mexicanus__Mexican_tetra__00000031598_ZNF648
+Monopterus_albus_(Swamp_eel)_00000020569_ZNF648 -> Monopterus_albus__Swamp_eel__00000020569_ZNF648
+Seriola_dumerili_(Greater_amberjack)_00000031161_ZNF648 -> Seriola_dumerili__Greater_amberjack__00000031161_ZNF648
+Xiphophorus_couchianus_(Monterrey_platyfish)_00000005445_ZNF648 -> Xiphophorus_couchianus__Monterrey_platyfish__00000005445_ZNF648
+Maylandia_zebra_(Zebra_mbuna)_00005013839_ZNF648 -> Maylandia_zebra__Zebra_mbuna__00005013839_ZNF648
+Mastacembelus_armatus_(Zig-zag_eel)_00000011450_ZNF648 -> Mastacembelus_armatus__Zig-zag_eel__00000011450_ZNF648
+Oryzias_latipes_(Japanese_medaka_HdrR)_00015018934_ZNF648 -> Oryzias_latipes__Japanese_medaka_HdrR__00015018934_ZNF648
+Pundamilia_nyererei_(Makobe_Island_cichlid)_00000028808_ZNF648 -> Pundamilia_nyererei__Makobe_Island_cichlid__00000028808_ZNF648
+Paramormyrops_kingsleyae_(Paramormyrops_kingsleyae)_00000020539_ZNF648 -> Paramormyrops_kingsleyae__Paramormyrops_kingsleyae__00000020539_ZNF648
+Neolamprologus_brichardi_(Lyretail_cichlid)_00000021271_ZNF648 -> Neolamprologus_brichardi__Lyretail_cichlid__00000021271_ZNF648
+Astatotilapia_calliptera_(Eastern_happy)_00000039718_ZNF648 -> Astatotilapia_calliptera__Eastern_happy__00000039718_ZNF648
+Xiphophorus_maculatus_(Platyfish)_00000020424_ZNF648 -> Xiphophorus_maculatus__Platyfish__00000020424_ZNF648
+Pygocentrus_nattereri_(Red-bellied_piranha)_00000002251_ZNF648 -> Pygocentrus_nattereri__Red-bellied_piranha__00000002251_ZNF648
+Kryptolebias_marmoratus_(Mangrove_rivulus)_00000005458_ZNF648 -> Kryptolebias_marmoratus__Mangrove_rivulus__00000005458_ZNF648
+Scophthalmus_maximus_(Turbot)_00000005436_ZNF648 -> Scophthalmus_maximus__Turbot__00000005436_ZNF648
+Gambusia_affinis_(Western_mosquitofish)_00000024494_ZNF648 -> Gambusia_affinis__Western_mosquitofish__00000024494_ZNF648
+Mola_mola_(Ocean_sunfish)_00000022499_ZNF648 -> Mola_mola__Ocean_sunfish__00000022499_ZNF648
+Poecilia_latipinna_(Sailfin_molly)_00000014358_ZNF648 -> Poecilia_latipinna__Sailfin_molly__00000014358_ZNF648
+Pundamilia_nyererei_(Makobe_Island_cichlid)_00000031647_ZNF648 -> Pundamilia_nyererei__Makobe_Island_cichlid__00000031647_ZNF648
+Seriola_lalandi_dorsalis_(Yellowtail_amberjack)_00000025573_ZNF648 -> Seriola_lalandi_dorsalis__Yellowtail_amberjack__00000025573_ZNF648
+Chrysemys_picta_bellii(Painted_Sea_turtle)_00000022040_ZNF648 -> Chrysemys_picta_bellii_Painted_Sea_turtle__00000022040_ZNF648
+Equus_asinus_asinus_(Donkey)_00005009247_ZNF648 -> Equus_asinus_asinus__Donkey__00005009247_ZNF648
+Ursus_americanus_(American_black_bear)_00000033931_ZNF648 -> Ursus_americanus__American_black_bear__00000033931_ZNF648
+Vulpes_vulpes_(Red_fox)_00000011974_ZNF648 -> Vulpes_vulpes__Red_fox__00000011974_ZNF648
+Ursus_maritimus_(Polar_bear)_00000022657_ZNF648 -> Ursus_maritimus__Polar_bear__00000022657_ZNF648
+Canis_lupus_dingo_(Dingo)_00020018655_ZNF648 -> Canis_lupus_dingo__Dingo__00020018655_ZNF648
+Gopherus_agassizii_(Agassiz's_desert_tortoise)_00000021072_ZNF648 -> Gopherus_agassizii__Agassiz_s_desert_tortoise__00000021072_ZNF648
+Apteryx_haastii_(Great_spotted_kiwi)_00000005359_ZNF648 -> Apteryx_haastii__Great_spotted_kiwi__00000005359_ZNF648
+Dromaius_novaehollandiae_(Emu)_00000022743_ZNF648 -> Dromaius_novaehollandiae__Emu__00000022743_ZNF648
+Urocitellus_parryii_(Arctic_ground_squirrel)_00010007088_ZNF648 -> Urocitellus_parryii__Arctic_ground_squirrel__00010007088_ZNF648
+Prolemur_simus_(Greater_bamboo_lemur)_00000003272_ZNF648 -> Prolemur_simus__Greater_bamboo_lemur__00000003272_ZNF648
+Canis_lupus_dingo_(Dingo)_00000033589_ZNF648 -> Canis_lupus_dingo__Dingo__00000033589_ZNF648
+Spermophilus_dauricus_(Daurian_ground_squirrel)_00000003998_ZNF648 -> Spermophilus_dauricus__Daurian_ground_squirrel__00000003998_ZNF648
+Piliocolobus_tephrosceles_(Ugandan_red_Colobus)_00000003335_ZNF648 -> Piliocolobus_tephrosceles__Ugandan_red_Colobus__00000003335_ZNF648
+Neovison_vison_(American_mink)_00000023521_ZNF648 -> Neovison_vison__American_mink__00000023521_ZNF648
+Bos_mutus_(Wild_yak)_00000003436_ZNF648 -> Bos_mutus__Wild_yak__00000003436_ZNF648
+Apteryx_rowi_(Okarito_brown_kiwi)_00000006070_ZNF648 -> Apteryx_rowi__Okarito_brown_kiwi__00000006070_ZNF648
+Chelonoidis_abingdonii_(Abingdon_island_giant_tortoise)_00000019171_ZNF648 -> Chelonoidis_abingdonii__Abingdon_island_giant_tortoise__00000019171_ZNF648
+Castor_canadensis_(American_beaver)_00000000805_ZNF648 -> Castor_canadensis__American_beaver__00000000805_ZNF648
+Mus_spicilegus_(Steppe_mouse)_00000015231_ZNF648 -> Mus_spicilegus__Steppe_mouse__00000015231_ZNF648
+Meriones_unguiculatus_(Mongolian_gerbil)_00000032681_ZNF648 -> Meriones_unguiculatus__Mongolian_gerbil__00000032681_ZNF648
+Theropithecus_gelada_(Gelada)_00000033154_ZNF648 -> Theropithecus_gelada__Gelada__00000033154_ZNF648
+Cricetulus_griseus_(Chinese_hamster_CHOK1GS)_00015022122_ZNF648 -> Cricetulus_griseus__Chinese_hamster_CHOK1GS__00015022122_ZNF648
+Marmota_marmota_marmota_(Alpine_marmot)_00000017314_ZNF648 -> Marmota_marmota_marmota__Alpine_marmot__00000017314_ZNF648
+Crocodylus_porosus_(Australian_saltwater_crocodile)_00005019843_ZNF648 -> Crocodylus_porosus__Australian_saltwater_crocodile__00005019843_ZNF648
+Bos_taurus_(Cow)_00000055347_ZNF648 -> Bos_taurus__Cow__00000055347_ZNF648
+Peromyscus_maniculatus_bairdii_(Northern_American_deer_mouse)_00000030728_ZNF648 -> Peromyscus_maniculatus_bairdii__Northern_American_deer_mouse__00000030728_ZNF648
+Lates_calcarifer_(Barramundi_perch)_00010016853_ZNF648 -> Lates_calcarifer__Barramundi_perch__00010016853_ZNF648
+Electrophorus_electricus_(Electric_eel)_00000000928_ZNF648 -> Electrophorus_electricus__Electric_eel__00000000928_ZNF648
+Hucho_hucho_(Huchen)_00000032940_ZNF648 -> Hucho_hucho__Huchen__00000032940_ZNF648
+Equus_caballus_(Horse)_00000001421_ZNF648 -> Equus_caballus__Horse__00000001421_ZNF648
+Hucho_hucho_(Huchen)_00000013326_ZNF648 -> Hucho_hucho__Huchen__00000013326_ZNF648
+Bos_indicus_x_Bos_taurus_(Hybrid_-_Bos_Indicus)_00000008687_ZNF648 -> Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00000008687_ZNF648
+Bos_indicus_x_Bos_taurus_(Hybrid_-_Bos_Indicus)_00005026213_ZNF648 -> Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00005026213_ZNF648
+Mus_Musculus_(Mouse)_00000083370_ZNF648 -> Mus_Musculus__Mouse__00000083370_ZNF648
+Homo_sapiens_(Human)_00000344129_ZNF648 -> Homo_sapiens__Human__00000344129_ZNF648
+Sus_scrofa_(Pig)_00070021813_ZNF648 -> Sus_scrofa__Pig__00070021813_ZNF648
+Tupaia_belangeri_(Tree_Shrew)_00000006323_ZNF808 -> Tupaia_belangeri__Tree_Shrew__00000006323_ZNF808
+Oreochromis_niloticus_(Tilapia)_00000009326_ZNF808 -> Oreochromis_niloticus__Tilapia__00000009326_ZNF808
+Monodelphis_domestica_(Opossum)_00000010011_ZNF808 -> Monodelphis_domestica__Opossum__00000010011_ZNF808
+Pongo_abelii_(Orangutan)_00000024664_ZNF808 -> Pongo_abelii__Orangutan__00000024664_ZNF808
+Oreochromis_niloticus_(Tilapia)_00000021411_ZNF808 -> Oreochromis_niloticus__Tilapia__00000021411_ZNF808
+Ailuropoda_melanoleuca_(Panda)_00000015232_ZNF808 -> Ailuropoda_melanoleuca__Panda__00000015232_ZNF808
+Monodelphis_domestica_(Opossum)_00000007252_ZNF808 -> Monodelphis_domestica__Opossum__00000007252_ZNF808
+Myotis_lucifugus_(Microbat)_00000014357_ZNF808 -> Myotis_lucifugus__Microbat__00000014357_ZNF808
+Loxodonta_africana_(Elephant)_00000005260_ZNF808 -> Loxodonta_africana__Elephant__00000005260_ZNF808
+Echinops_telfairi_(Lesser_hedgehog_tenrec)_00000000372_ZNF808 -> Echinops_telfairi__Lesser_hedgehog_tenrec__00000000372_ZNF808
+Tursiops_truncatus_(Dolphin)_00000012673_ZNF808 -> Tursiops_truncatus__Dolphin__00000012673_ZNF808
+Tursiops_truncatus_(Dolphin)_00000012675_ZNF808 -> Tursiops_truncatus__Dolphin__00000012675_ZNF808
+Tursiops_truncatus_(Dolphin)_00000012680_ZNF808 -> Tursiops_truncatus__Dolphin__00000012680_ZNF808
+Tursiops_truncatus_(Dolphin)_00000012682_ZNF808 -> Tursiops_truncatus__Dolphin__00000012682_ZNF808
+Ochotona_princeps_(Pika)_00000000435_ZNF808 -> Ochotona_princeps__Pika__00000000435_ZNF808
+Mustela_putorius_furo_(Ferret)_00000001730_ZNF808 -> Mustela_putorius_furo__Ferret__00000001730_ZNF808
+Procavia_capensis_(Hyrax)_00000002033_ZNF808 -> Procavia_capensis__Hyrax__00000002033_ZNF808
+Poecilia_formosa_(Amazon_molly)_00000002193_ZNF808 -> Poecilia_formosa__Amazon_molly__00000002193_ZNF808
+Pteropus_vampyrus_(Megabat)_00000004573_ZNF808 -> Pteropus_vampyrus__Megabat__00000004573_ZNF808
+Chlorocebus_sabaeus_(Vervet-AGM)_00000016060_ZNF808 -> Chlorocebus_sabaeus__Vervet-AGM__00000016060_ZNF808
+Tupaia_belangeri_(Tree_Shrew)_00000003707_ZNF808 -> Tupaia_belangeri__Tree_Shrew__00000003707_ZNF808
+Dasypus_novemcinctus_(Armadillo)_00000031770_ZNF808 -> Dasypus_novemcinctus__Armadillo__00000031770_ZNF808
+Otolemur_garnettii_(Bushbaby)_00000015860_ZNF808 -> Otolemur_garnettii__Bushbaby__00000015860_ZNF808
+Oryctolagus_cuniculus_(Rabbit)_00000010228_ZNF808 -> Oryctolagus_cuniculus__Rabbit__00000010228_ZNF808
+Anolis_carolinensis_(Anole_lizard)_00000021476_ZNF808 -> Anolis_carolinensis__Anole_lizard__00000021476_ZNF808
+Ovis_aries_(Sheep)_00000002647_ZNF808 -> Ovis_aries__Sheep__00000002647_ZNF808
+Pelodiscus_sinensis_(Chinese_softshell_turtle)_00000009437_ZNF808 -> Pelodiscus_sinensis__Chinese_softshell_turtle__00000009437_ZNF808
+Sarcophilus_harrisii_(Tasmanian_devil)_00000005479_ZNF808 -> Sarcophilus_harrisii__Tasmanian_devil__00000005479_ZNF808
+Sarcophilus_harrisii_(Tasmanian_devil)_00000005920_ZNF808 -> Sarcophilus_harrisii__Tasmanian_devil__00000005920_ZNF808
+Sorex_araneus_(Shrew)_00000001397_ZNF808 -> Sorex_araneus__Shrew__00000001397_ZNF808
+Ornithorhynchus_anatinus_(Platypus)_00000006773_ZNF808 -> Ornithorhynchus_anatinus__Platypus__00000006773_ZNF808
+Echinops_telfairi_(Lesser_hedgehog_tenrec)_00000005518_ZNF808 -> Echinops_telfairi__Lesser_hedgehog_tenrec__00000005518_ZNF808
+Echinops_telfairi_(Lesser_hedgehog_tenrec)_00000010929_ZNF808 -> Echinops_telfairi__Lesser_hedgehog_tenrec__00000010929_ZNF808
+Macaca_mulatta_(Macaque)_00000013629_ZNF808 -> Macaca_mulatta__Macaque__00000013629_ZNF808
+Vicugna_pacos_(Alpaca)_00000005640_ZNF808 -> Vicugna_pacos__Alpaca__00000005640_ZNF808
+Notamacropus_eugenii_(Wallaby)_00000006447_ZNF808 -> Notamacropus_eugenii__Wallaby__00000006447_ZNF808
+Rattus_norvegicus_(Rat)_00000034962_ZNF808 -> Rattus_norvegicus__Rat__00000034962_ZNF808
+Ictidomys_tridecemlineatus_(Squirrel)_00000026219_ZNF808 -> Ictidomys_tridecemlineatus__Squirrel__00000026219_ZNF808
+Jaculus_jaculus_(Lesser_Egyptian_jerboa)_00000009711_ZNF808 -> Jaculus_jaculus__Lesser_Egyptian_jerboa__00000009711_ZNF808
+Mesocricetus_auratus_(Golden_Hamster)_00000021171_ZNF808 -> Mesocricetus_auratus__Golden_Hamster__00000021171_ZNF808
+Cricetulus_griseus_(Chinese_hamster_CHOK1GS)_00000011745_ZNF808 -> Cricetulus_griseus__Chinese_hamster_CHOK1GS__00000011745_ZNF808
+Cavia_porcellus_(Guinea_Pig)_00000025109_ZNF808 -> Cavia_porcellus__Guinea_Pig__00000025109_ZNF808
+Nannospalax_galili_(Upper_Galilee_mountains_blind_mole_rat)_00000000729_ZNF808 -> Nannospalax_galili__Upper_Galilee_mountains_blind_mole_rat__00000000729_ZNF808
+Microtus_ochrogaster_(Prairie_vole)_00000022678_ZNF808 -> Microtus_ochrogaster__Prairie_vole__00000022678_ZNF808
+Heterocephalus_glaber(Naked_mole-rat_female_00100005126_ZNF808 -> Heterocephalus_glaber_Naked_mole-rat_female_00100005126_ZNF808
+Fukomys_damarensis_(Damara_mole_rat)_00000005188_ZNF808 -> Fukomys_damarensis__Damara_mole_rat__00000005188_ZNF808
+Fukomys_damarensis_(Damara_mole_rat)_00000008845_ZNF808 -> Fukomys_damarensis__Damara_mole_rat__00000008845_ZNF808
+Ictidomys_tridecemlineatus_(Squirrel)_00000024900_ZNF808 -> Ictidomys_tridecemlineatus__Squirrel__00000024900_ZNF808
+Chinchilla_lanigera_(Long-tailed_chinchilla)_00000002376_ZNF808 -> Chinchilla_lanigera__Long-tailed_chinchilla__00000002376_ZNF808
+Ictidomys_tridecemlineatus_(Squirrel)_00000021701_ZNF808 -> Ictidomys_tridecemlineatus__Squirrel__00000021701_ZNF808
+Sus_scrofa_(Pig)_00000032532_ZNF808 -> Sus_scrofa__Pig__00000032532_ZNF808
+Cricetulus_griseus_(Chinese_hamster_CHOK1GS)_00001001231_ZNF808 -> Cricetulus_griseus__Chinese_hamster_CHOK1GS__00001001231_ZNF808
+Nannospalax_galili_(Upper_Galilee_mountains_blind_mole_rat)_00000016122_ZNF808 -> Nannospalax_galili__Upper_Galilee_mountains_blind_mole_rat__00000016122_ZNF808
+Propithecus_coquereli_(Coquerel's_sifaka)_00000020153_ZNF808 -> Propithecus_coquereli__Coquerel_s_sifaka__00000020153_ZNF808
+Macaca_nemestrina_(Pig-tailed_macaque)_00000041484_ZNF808 -> Macaca_nemestrina__Pig-tailed_macaque__00000041484_ZNF808
+Macaca_fascicularis_(Crab-eating_macaque)_00000010465_ZNF808 -> Macaca_fascicularis__Crab-eating_macaque__00000010465_ZNF808
+Saimiri_boliviensis_boliviensis_(Bolivian_squirrel_monkey)_00000026850_ZNF808 -> Saimiri_boliviensis_boliviensis__Bolivian_squirrel_monkey__00000026850_ZNF808
+Nomascus_leucogenys_(Gibbon)_00000007311_ZNF808 -> Nomascus_leucogenys__Gibbon__00000007311_ZNF808
+Rhinopithecus_roxellana_(Golden_snub-nosed_monkey)_00000002337_ZNF808 -> Rhinopithecus_roxellana__Golden_snub-nosed_monkey__00000002337_ZNF808
+Papio_anubis_(Olive_baboon)_00000045668_ZNF808 -> Papio_anubis__Olive_baboon__00000045668_ZNF808
+Cercocebus_atys_(Sooty_mangabey)_00000027085_ZNF808 -> Cercocebus_atys__Sooty_mangabey__00000027085_ZNF808
+Colobus_angolensis_palliatus_(Angola_colobus)_00000005567_ZNF808 -> Colobus_angolensis_palliatus__Angola_colobus__00000005567_ZNF808
+Aotus_nancymaae_(Ma's_night_monkey)_00000013798_ZNF808 -> Aotus_nancymaae__Ma_s_night_monkey__00000013798_ZNF808
+Pan_troglodytes_(Chimpanzee)_00000081509_ZNF808 -> Pan_troglodytes__Chimpanzee__00000081509_ZNF808
+Mandrillus_leucophaeus_(Drill)_00000027650_ZNF808 -> Mandrillus_leucophaeus__Drill__00000027650_ZNF808
+Pan_paniscus_(Bonobo)_00000030160_ZNF808 -> Pan_paniscus__Bonobo__00000030160_ZNF808
+Carlito_syrichta_(Tarsier)_00000018279_ZNF808 -> Carlito_syrichta__Tarsier__00000018279_ZNF808
+Mus_spretus_(Algerian_mouse)_0081867_ZNF808 -> Mus_spretus__Algerian_mouse__0081867_ZNF808
+Mus_pahari_(Shrew_mouse)_0015432_ZNF808 -> Mus_pahari__Shrew_mouse__0015432_ZNF808
+Mus_caroli_(Ryukyu_mouse)_0078555_ZNF808 -> Mus_caroli__Ryukyu_mouse__0078555_ZNF808
+Gorilla_gorilla_gorilla_(Gorilla)_00000023898_ZNF808 -> Gorilla_gorilla_gorilla__Gorilla__00000023898_ZNF808
+Capra_hircus_(Goat)_00000012514_ZNF808 -> Capra_hircus__Goat__00000012514_ZNF808
+Capra_hircus_(Goat)_00000009631_ZNF808 -> Capra_hircus__Goat__00000009631_ZNF808
+Capra_hircus_(Goat)_00000027562_ZNF808 -> Capra_hircus__Goat__00000027562_ZNF808
+Eptatretus_burgeri_(Hagfish)_00000005073_ZNF808 -> Eptatretus_burgeri__Hagfish__00000005073_ZNF808
+Felis_catus_(Cat)_00000040419_ZNF808 -> Felis_catus__Cat__00000040419_ZNF808
+Felis_catus_(Cat)_00000033927_ZNF808 -> Felis_catus__Cat__00000033927_ZNF808
+Oryzias_melastigma_(Indian_medaka)_00000000737_ZNF808 -> Oryzias_melastigma__Indian_medaka__00000000737_ZNF808
+Anabas_testudineus_(Climbing_perch)_00000034318_ZNF808 -> Anabas_testudineus__Climbing_perch__00000034318_ZNF808
+Haplochromis_burtoni_(Burton's_mouthbrooder)_00000002620_ZNF808 -> Haplochromis_burtoni__Burton_s_mouthbrooder__00000002620_ZNF808
+Oryzias_melastigma_(Indian_medaka)_00000017182_ZNF808 -> Oryzias_melastigma__Indian_medaka__00000017182_ZNF808
+Astatotilapia_calliptera_(Eastern_happy)_00000025926_ZNF808 -> Astatotilapia_calliptera__Eastern_happy__00000025926_ZNF808
+Astatotilapia_calliptera_(Eastern_happy)_00000028952_ZNF808 -> Astatotilapia_calliptera__Eastern_happy__00000028952_ZNF808
+Microcebus_murinus_(Mouse_Lemur)_00000025306_ZNF808 -> Microcebus_murinus__Mouse_Lemur__00000025306_ZNF808
+Scophthalmus_maximus_(Turbot)_00000016986_ZNF808 -> Scophthalmus_maximus__Turbot__00000016986_ZNF808
+Maylandia_zebra_(Zebra_mbuna)_00005029802_ZNF808 -> Maylandia_zebra__Zebra_mbuna__00005029802_ZNF808
+Maylandia_zebra_(Zebra_mbuna)_00005033534_ZNF808 -> Maylandia_zebra__Zebra_mbuna__00005033534_ZNF808
+Pygocentrus_nattereri_(Red-bellied_piranha)_00000006072_ZNF808 -> Pygocentrus_nattereri__Red-bellied_piranha__00000006072_ZNF808
+Pygocentrus_nattereri_(Red-bellied_piranha)_00000037443_ZNF808 -> Pygocentrus_nattereri__Red-bellied_piranha__00000037443_ZNF808
+Pygocentrus_nattereri_(Red-bellied_piranha)_00000006458_ZNF808 -> Pygocentrus_nattereri__Red-bellied_piranha__00000006458_ZNF808
+Pygocentrus_nattereri_(Red-bellied_piranha)_00000006391_ZNF808 -> Pygocentrus_nattereri__Red-bellied_piranha__00000006391_ZNF808
+Pygocentrus_nattereri_(Red-bellied_piranha)_00000010880_ZNF808 -> Pygocentrus_nattereri__Red-bellied_piranha__00000010880_ZNF808
+Pygocentrus_nattereri_(Red-bellied_piranha)_00000015741_ZNF808 -> Pygocentrus_nattereri__Red-bellied_piranha__00000015741_ZNF808
+Pygocentrus_nattereri_(Red-bellied_piranha)_00000024167_ZNF808 -> Pygocentrus_nattereri__Red-bellied_piranha__00000024167_ZNF808
+Poecilia_latipinna_(Sailfin_molly)_00000026663_ZNF808 -> Poecilia_latipinna__Sailfin_molly__00000026663_ZNF808
+Pygocentrus_nattereri_(Red-bellied_piranha)_00000008896_ZNF808 -> Pygocentrus_nattereri__Red-bellied_piranha__00000008896_ZNF808
+Seriola_lalandi_dorsalis_(Yellowtail_amberjack)_00000020855_ZNF808 -> Seriola_lalandi_dorsalis__Yellowtail_amberjack__00000020855_ZNF808
+Ursus_maritimus_(Polar_bear)_00000014195_ZNF808 -> Ursus_maritimus__Polar_bear__00000014195_ZNF808
+Ursus_americanus_(American_black_bear)_00000004514_ZNF808 -> Ursus_americanus__American_black_bear__00000004514_ZNF808
+Sphenodon_punctatus_(Tuatara)_00000024245_ZNF808 -> Sphenodon_punctatus__Tuatara__00000024245_ZNF808
+Equus_asinus_asinus_(Donkey)_00005003059_ZNF808 -> Equus_asinus_asinus__Donkey__00005003059_ZNF808
+Canis_lupus_dingo_(Dingo)_00020024026_ZNF808 -> Canis_lupus_dingo__Dingo__00020024026_ZNF808
+Canis_lupus_dingo_(Dingo)_00020024054_ZNF808 -> Canis_lupus_dingo__Dingo__00020024054_ZNF808
+Canis_lupus_dingo_(Dingo)_00020022838_ZNF808 -> Canis_lupus_dingo__Dingo__00020022838_ZNF808
+Ursus_americanus_(American_black_bear)_00000017628_ZNF808 -> Ursus_americanus__American_black_bear__00000017628_ZNF808
+Ursus_americanus_(American_black_bear)_00000003448_ZNF808 -> Ursus_americanus__American_black_bear__00000003448_ZNF808
+Gopherus_agassizii_(Agassiz's_desert_tortoise)_00000000097_ZNF808 -> Gopherus_agassizii__Agassiz_s_desert_tortoise__00000000097_ZNF808
+Vulpes_vulpes_(Red_fox)_00000002048_ZNF808 -> Vulpes_vulpes__Red_fox__00000002048_ZNF808
+Ursus_americanus_(American_black_bear)_00000001993_ZNF808 -> Ursus_americanus__American_black_bear__00000001993_ZNF808
+Meleagris_gallopavo_(Turkey)_00000007125_ZNF808 -> Meleagris_gallopavo__Turkey__00000007125_ZNF808
+Meriones_unguiculatus_(Mongolian_gerbil)_00000013901_ZNF808 -> Meriones_unguiculatus__Mongolian_gerbil__00000013901_ZNF808
+Nothoprocta_perdicaria_(Chilean_tinamou)_00000000093_ZNF808 -> Nothoprocta_perdicaria__Chilean_tinamou__00000000093_ZNF808
+Bos_mutus_(Wild_yak)_00000028441_ZNF808 -> Bos_mutus__Wild_yak__00000028441_ZNF808
+Bos_mutus_(Wild_yak)_00000028472_ZNF808 -> Bos_mutus__Wild_yak__00000028472_ZNF808
+Urocitellus_parryii_(Arctic_ground_squirrel)_00010013381_ZNF808 -> Urocitellus_parryii__Arctic_ground_squirrel__00010013381_ZNF808
+Peromyscus_maniculatus_bairdii_(Northern_American_deer_mouse)_00000008154_ZNF808 -> Peromyscus_maniculatus_bairdii__Northern_American_deer_mouse__00000008154_ZNF808
+Chelonoidis_abingdonii_(Abingdon_island_giant_tortoise)_00000017922_ZNF808 -> Chelonoidis_abingdonii__Abingdon_island_giant_tortoise__00000017922_ZNF808
+Urocitellus_parryii_(Arctic_ground_squirrel)_00010027282_ZNF808 -> Urocitellus_parryii__Arctic_ground_squirrel__00010027282_ZNF808
+Urocitellus_parryii_(Arctic_ground_squirrel)_00010021360_ZNF808 -> Urocitellus_parryii__Arctic_ground_squirrel__00010021360_ZNF808
+Apteryx_owenii_(Little_spotted_kiwi)_00000017745_ZNF808 -> Apteryx_owenii__Little_spotted_kiwi__00000017745_ZNF808
+Castor_canadensis_(American_beaver)_00000009803_ZNF808 -> Castor_canadensis__American_beaver__00000009803_ZNF808
+Prolemur_simus_(Greater_bamboo_lemur)_00000035432_ZNF808 -> Prolemur_simus__Greater_bamboo_lemur__00000035432_ZNF808
+Melopsittacus_undulatus_(Budgerigar)_00000009199_ZNF808 -> Melopsittacus_undulatus__Budgerigar__00000009199_ZNF808
+Spermophilus_dauricus_(Daurian_ground_squirrel)_00000000112_ZNF808 -> Spermophilus_dauricus__Daurian_ground_squirrel__00000000112_ZNF808
+Spermophilus_dauricus_(Daurian_ground_squirrel)_00000005740_ZNF808 -> Spermophilus_dauricus__Daurian_ground_squirrel__00000005740_ZNF808
+Urocitellus_parryii_(Arctic_ground_squirrel)_00010029172_ZNF808 -> Urocitellus_parryii__Arctic_ground_squirrel__00010029172_ZNF808
+Spermophilus_dauricus_(Daurian_ground_squirrel)_00000007754_ZNF808 -> Spermophilus_dauricus__Daurian_ground_squirrel__00000007754_ZNF808
+Notechis_scutatus_(Mainland_tiger_snake)_00000003363_ZNF808 -> Notechis_scutatus__Mainland_tiger_snake__00000003363_ZNF808
+Urocitellus_parryii_(Arctic_ground_squirrel)_00010022771_ZNF808 -> Urocitellus_parryii__Arctic_ground_squirrel__00010022771_ZNF808
+Mus_spicilegus_(Steppe_mouse)_00000003671_ZNF808 -> Mus_spicilegus__Steppe_mouse__00000003671_ZNF808
+Cricetulus_griseus_(Chinese_hamster_CHOK1GS)_00015007919_ZNF808 -> Cricetulus_griseus__Chinese_hamster_CHOK1GS__00015007919_ZNF808
+Neovison_vison_(American_mink)_00000030259_ZNF808 -> Neovison_vison__American_mink__00000030259_ZNF808
+Bos_mutus_(Wild_yak)_00000004436_ZNF808 -> Bos_mutus__Wild_yak__00000004436_ZNF808
+Castor_canadensis_(American_beaver)_00000004640_ZNF808 -> Castor_canadensis__American_beaver__00000004640_ZNF808
+Phascolarctos_cinereus_(Koala)_00000051282_ZNF808 -> Phascolarctos_cinereus__Koala__00000051282_ZNF808
+Prolemur_simus_(Greater_bamboo_lemur)_00000019818_ZNF808 -> Prolemur_simus__Greater_bamboo_lemur__00000019818_ZNF808
+Spermophilus_dauricus_(Daurian_ground_squirrel)_00000020806_ZNF808 -> Spermophilus_dauricus__Daurian_ground_squirrel__00000020806_ZNF808
+Phascolarctos_cinereus_(Koala)_00000028519_ZNF808 -> Phascolarctos_cinereus__Koala__00000028519_ZNF808
+Phascolarctos_cinereus_(Koala)_00000053020_ZNF808 -> Phascolarctos_cinereus__Koala__00000053020_ZNF808
+Phascolarctos_cinereus_(Koala)_00000044415_ZNF808 -> Phascolarctos_cinereus__Koala__00000044415_ZNF808
+Spermophilus_dauricus_(Daurian_ground_squirrel)_00000023474_ZNF808 -> Spermophilus_dauricus__Daurian_ground_squirrel__00000023474_ZNF808
+Pogona_vitticeps_(Central_bearded_dragon)_00000004751_ZNF808 -> Pogona_vitticeps__Central_bearded_dragon__00000004751_ZNF808
+Pogona_vitticeps_(Central_bearded_dragon)_00000005701_ZNF808 -> Pogona_vitticeps__Central_bearded_dragon__00000005701_ZNF808
+Meriones_unguiculatus_(Mongolian_gerbil)_00000018018_ZNF808 -> Meriones_unguiculatus__Mongolian_gerbil__00000018018_ZNF808
+Bison_bison_bison_(American_bison)_00000028374_ZNF808 -> Bison_bison_bison__American_bison__00000028374_ZNF808
+Cricetulus_griseus_(Chinese_hamster_CHOK1GS)_00015036185_ZNF808 -> Cricetulus_griseus__Chinese_hamster_CHOK1GS__00015036185_ZNF808
+Piliocolobus_tephrosceles_(Ugandan_red_Colobus)_00000024968_ZNF808 -> Piliocolobus_tephrosceles__Ugandan_red_Colobus__00000024968_ZNF808
+Salvator_merianae_(Argentine_black_and_white_tegu)_00000004683_ZNF808 -> Salvator_merianae__Argentine_black_and_white_tegu__00000004683_ZNF808
+Marmota_marmota_marmota_(Alpine_marmot)_00000004768_ZNF808 -> Marmota_marmota_marmota__Alpine_marmot__00000004768_ZNF808
+Marmota_marmota_marmota_(Alpine_marmot)_00000011743_ZNF808 -> Marmota_marmota_marmota__Alpine_marmot__00000011743_ZNF808
+Marmota_marmota_marmota_(Alpine_marmot)_00000011781_ZNF808 -> Marmota_marmota_marmota__Alpine_marmot__00000011781_ZNF808
+Marmota_marmota_marmota_(Alpine_marmot)_00000022719_ZNF808 -> Marmota_marmota_marmota__Alpine_marmot__00000022719_ZNF808
+Marmota_marmota_marmota_(Alpine_marmot)_00000010926_ZNF808 -> Marmota_marmota_marmota__Alpine_marmot__00000010926_ZNF808
+Marmota_marmota_marmota_(Alpine_marmot)_00000005962_ZNF808 -> Marmota_marmota_marmota__Alpine_marmot__00000005962_ZNF808
+Crocodylus_porosus_(Australian_saltwater_crocodile)_00005013327_ZNF808 -> Crocodylus_porosus__Australian_saltwater_crocodile__00005013327_ZNF808
+Bos_taurus_(Cow)_00000051990_ZNF808 -> Bos_taurus__Cow__00000051990_ZNF808
+Theropithecus_gelada_(Gelada)_00000006186_ZNF808 -> Theropithecus_gelada__Gelada__00000006186_ZNF808
+Vombatus_ursinus_(Common_wombat)_00010009278_ZNF808 -> Vombatus_ursinus__Common_wombat__00010009278_ZNF808
+Equus_caballus_(Horse)_00000020579_ZNF808 -> Equus_caballus__Horse__00000020579_ZNF808
+Bos_indicus_x_Bos_taurus_(Hybrid_-_Bos_Indicus)_00000011973_ZNF808 -> Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00000011973_ZNF808
+Bos_indicus_x_Bos_taurus_(Hybrid_-_Bos_Indicus)_00000011963_ZNF808 -> Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00000011963_ZNF808
+Bos_indicus_x_Bos_taurus_(Hybrid_-_Bos_Indicus)_00005036461_ZNF808 -> Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00005036461_ZNF808
+Mus_Musculus_(Mouse)_00000141137_ZNF808 -> Mus_Musculus__Mouse__00000141137_ZNF808
+Homo_sapiens_(Human)_00000352846_ZNF808 -> Homo_sapiens__Human__00000352846_ZNF808
+Sus_scrofa_(Pig)_00070027524_ZNF808 -> Sus_scrofa__Pig__00070027524_ZNF808
+
+                                                                                  Gap/Ambiguity  Composition  p-value
+   1  Pongo_abelii__Orangutan__00000000501_ZNF648                                        86.14%    failed      0.00%
+   2  Lepisosteus_oculatus__Spotted_gar__00000021840_ZNF648                              90.71%    failed      0.00%
+   3  Ailuropoda_melanoleuca__Panda__00000021205_ZNF648                                  86.14%    failed      0.00%
+   4  Latimeria_chalumnae__Coelacanth__00000006806_ZNF648                                84.87%    failed      0.00%
+   5  Oreochromis_niloticus__Tilapia__00000024204_ZNF648                                 94.68%    passed     81.43%
+   6  Poecilia_formosa__Amazon_molly__00000020976_ZNF648                                 94.68%    passed     85.86%
+   7  Mustela_putorius_furo__Ferret__00000019891_ZNF648                                  86.12%    failed      0.00%
+   8  Chlorocebus_sabaeus__Vervet-AGM__00000017756_ZNF648                                86.22%    failed      0.00%
+   9  Otolemur_garnettii__Bushbaby__00000017241_ZNF648                                   86.48%    failed      0.00%
+  10  Chinchilla_lanigera__Long-tailed_chinchilla__00000025961_ZNF648                    86.36%    failed      0.00%
+  11  Sus_scrofa__Pig__00000016480_ZNF648                                                87.58%    failed      0.00%
+  12  Rattus_norvegicus__Rat__00000044433_ZNF648                                         86.97%    failed      0.00%
+  13  Ictidomys_tridecemlineatus__Squirrel__00000016585_ZNF648                           86.31%    failed      0.00%
+  14  Cricetulus_griseus__Chinese_hamster_CHOK1GS__00001005615_ZNF648                    87.09%    failed      0.00%
+  15  Saimiri_boliviensis_boliviensis__Bolivian_squirrel_monkey__00000016750_ZNF648      86.63%    failed      0.00%
+  16  Nomascus_leucogenys__Gibbon__00000032941_ZNF648                                    86.14%    failed      0.00%
+  17  Pan_paniscus__Bonobo__00000001770_ZNF648                                           86.14%    failed      0.00%
+  18  Pan_troglodytes__Chimpanzee__00000076902_ZNF648                                    86.14%    failed      0.00%
+  19  Gorilla_gorilla_gorilla__Gorilla__00000042973_ZNF648                               86.14%    failed      0.00%
+  20  Mus_pahari__Shrew_mouse__0075728_ZNF648                                            87.09%    failed      0.01%
+  21  Capra_hircus__Goat__00000000732_ZNF648                                             86.26%    failed      0.00%
+  22  Mus_spretus__Algerian_mouse__0021511_ZNF648                                        87.22%    failed      0.00%
+  23  Mus_caroli__Ryukyu_mouse__0020450_ZNF648                                           87.24%    failed      0.00%
+  24  Felis_catus__Cat__00000001240_ZNF648                                               86.14%    failed      0.00%
+  25  Panthera_tigris_altaica__Tiger__00000002209_ZNF648                                 86.12%    failed      0.00%
+  26  Panthera_pardus__Leopard__00000024329_ZNF648                                       86.12%    failed      0.00%
+  27  Danio_rerio__Zebrafish__00000132889_ZNF648                                         88.27%    passed     44.55%
+  28  Callithrix_jacchus__Marmoset__00000008421_ZNF648                                   86.17%    failed      0.00%
+  29  Acanthochromis_polyacanthus__Spiny_chromis__00000029706_ZNF648                     90.75%    passed     20.47%
+  30  Labrus_bergylta__Ballan_wrasse__00000000930_ZNF648                                 94.46%    passed     78.69%
+  31  Amphilophus_citrinellus__Midas_cichlid__00000020042_ZNF648                         87.07%    passed     24.55%
+  32  Periophthalmus_magnuspinnatus__Periophthalmus_magnuspinnatus__00000026912_ZNF648   89.24%    failed      1.96%
+  33  Stegastes_partitus__Bicolor_damselfish__00000011501_ZNF648                         88.09%    passed     22.51%
+  34  Amphiprion_percula__Orange_clownfish__00000033184_ZNF648                           94.24%    passed     48.95%
+  35  Cynoglossus_semilaevis__Tongue_sole__00000000509_ZNF648                            94.22%    passed     72.77%
+  36  Anabas_testudineus__Climbing_perch__00000012577_ZNF648                             91.27%    passed     35.93%
+  37  Oryzias_latipes__Japanese_medaka_HdrR__00020000599_ZNF648                          88.63%    failed      1.62%
+  38  Haplochromis_burtoni__Burton_s_mouthbrooder__00000009700_ZNF648                    93.39%    passed     57.17%
+  39  Oryzias_latipes__Japanese_medaka_HdrR__00000035493_ZNF648                          87.95%    failed      0.78%
+  40  Poecilia_reticulata__Guppy__00000020488_ZNF648                                     87.22%    passed     10.99%
+  41  Scleropages_formosus__Asian_bonytongue__00015017755_ZNF648                         92.71%    failed      0.04%
+  42  Poecilia_mexicana__Shortfin_molly__00000028674_ZNF648                              86.12%    failed      0.25%
+  43  Fundulus_heteroclitus__Mummichog__00000012681_ZNF648                               88.17%    passed      6.88%
+  44  Esox_lucius__Northern_pike__00000026712_ZNF648                                     90.00%    passed      5.98%
+  45  Ictalurus_punctatus__Channel_catfish__00000017168_ZNF648                           90.56%    failed      2.47%
+  46  Cyprinodon_variegatus__Sheepshead_minnow__00000026614_ZNF648                       90.46%    passed     35.02%
+  47  Astyanax_mexicanus__Mexican_tetra__00000031598_ZNF648                              95.34%    passed     72.88%
+  48  Monopterus_albus__Swamp_eel__00000020569_ZNF648                                    89.83%    passed      9.45%
+  49  Seriola_dumerili__Greater_amberjack__00000031161_ZNF648                            86.36%    passed      7.48%
+  50  Xiphophorus_couchianus__Monterrey_platyfish__00000005445_ZNF648                    87.14%    failed      1.11%
+  51  Maylandia_zebra__Zebra_mbuna__00005013839_ZNF648                                   88.09%    passed     23.72%
+  52  Mastacembelus_armatus__Zig-zag_eel__00000011450_ZNF648                             88.73%    passed      5.01%
+  53  Oryzias_latipes__Japanese_medaka_HdrR__00015018934_ZNF648                          91.61%    passed     51.57%
+  54  Pundamilia_nyererei__Makobe_Island_cichlid__00000028808_ZNF648                     88.09%    passed     22.83%
+  55  Paramormyrops_kingsleyae__Paramormyrops_kingsleyae__00000020539_ZNF648             90.63%    failed      4.97%
+  56  Neolamprologus_brichardi__Lyretail_cichlid__00000021271_ZNF648                     93.34%    passed     71.00%
+  57  Astatotilapia_calliptera__Eastern_happy__00000039718_ZNF648                        87.85%    passed     13.33%
+  58  Xiphophorus_maculatus__Platyfish__00000020424_ZNF648                               88.22%    failed      2.77%
+  59  Pygocentrus_nattereri__Red-bellied_piranha__00000002251_ZNF648                     93.51%    passed     90.53%
+  60  Kryptolebias_marmoratus__Mangrove_rivulus__00000005458_ZNF648                      88.07%    failed      2.87%
+  61  Scophthalmus_maximus__Turbot__00000005436_ZNF648                                   87.70%    failed      1.31%
+  62  Gambusia_affinis__Western_mosquitofish__00000024494_ZNF648                         89.27%    passed     37.09%
+  63  Mola_mola__Ocean_sunfish__00000022499_ZNF648                                       93.85%    failed      0.11%
+  64  Poecilia_latipinna__Sailfin_molly__00000014358_ZNF648                              92.49%    passed     40.85%
+  65  Pundamilia_nyererei__Makobe_Island_cichlid__00000031647_ZNF648                     93.29%    passed     84.89%
+  66  Seriola_lalandi_dorsalis__Yellowtail_amberjack__00000025573_ZNF648                 87.56%    passed     15.34%
+  67  Chrysemys_picta_bellii_Painted_Sea_turtle__00000022040_ZNF648                      85.68%    failed      2.70%
+  68  Equus_asinus_asinus__Donkey__00005009247_ZNF648                                    86.17%    failed      0.00%
+  69  Ursus_americanus__American_black_bear__00000033931_ZNF648                          86.14%    failed      0.00%
+  70  Vulpes_vulpes__Red_fox__00000011974_ZNF648                                         86.12%    failed      0.00%
+  71  Ursus_maritimus__Polar_bear__00000022657_ZNF648                                    86.14%    failed      0.00%
+  72  Canis_lupus_dingo__Dingo__00020018655_ZNF648                                       86.12%    failed      0.00%
+  73  Gopherus_agassizii__Agassiz_s_desert_tortoise__00000021072_ZNF648                  85.70%    passed      7.58%
+  74  Apteryx_haastii__Great_spotted_kiwi__00000005359_ZNF648                            87.51%    failed      0.00%
+  75  Dromaius_novaehollandiae__Emu__00000022743_ZNF648                                  88.58%    failed      0.00%
+  76  Urocitellus_parryii__Arctic_ground_squirrel__00010007088_ZNF648                    86.31%    failed      0.00%
+  77  Prolemur_simus__Greater_bamboo_lemur__00000003272_ZNF648                           86.41%    failed      0.00%
+  78  Canis_lupus_dingo__Dingo__00000033589_ZNF648                                       86.12%    failed      0.00%
+  79  Spermophilus_dauricus__Daurian_ground_squirrel__00000003998_ZNF648                 86.31%    failed      0.00%
+  80  Piliocolobus_tephrosceles__Ugandan_red_Colobus__00000003335_ZNF648                 86.22%    failed      0.00%
+  81  Neovison_vison__American_mink__00000023521_ZNF648                                  86.12%    failed      0.00%
+  82  Bos_mutus__Wild_yak__00000003436_ZNF648                                            86.24%    failed      0.00%
+  83  Apteryx_rowi__Okarito_brown_kiwi__00000006070_ZNF648                               88.63%    failed      0.00%
+  84  Chelonoidis_abingdonii__Abingdon_island_giant_tortoise__00000019171_ZNF648         92.88%    passed     53.07%
+  85  Castor_canadensis__American_beaver__00000000805_ZNF648                             86.53%    failed      0.00%
+  86  Mus_spicilegus__Steppe_mouse__00000015231_ZNF648                                   87.19%    failed      0.00%
+  87  Meriones_unguiculatus__Mongolian_gerbil__00000032681_ZNF648                        86.90%    failed      0.00%
+  88  Theropithecus_gelada__Gelada__00000033154_ZNF648                                   86.19%    failed      0.00%
+  89  Cricetulus_griseus__Chinese_hamster_CHOK1GS__00015022122_ZNF648                    87.09%    failed      0.00%
+  90  Marmota_marmota_marmota__Alpine_marmot__00000017314_ZNF648                         86.31%    failed      0.00%
+  91  Crocodylus_porosus__Australian_saltwater_crocodile__00005019843_ZNF648             85.87%    failed      0.21%
+  92  Bos_taurus__Cow__00000055347_ZNF648                                                86.24%    failed      0.00%
+  93  Peromyscus_maniculatus_bairdii__Northern_American_deer_mouse__00000030728_ZNF648   87.05%    failed      0.00%
+  94  Lates_calcarifer__Barramundi_perch__00010016853_ZNF648                             88.70%    passed     10.52%
+  95  Electrophorus_electricus__Electric_eel__00000000928_ZNF648                         94.56%    passed      9.00%
+  96  Hucho_hucho__Huchen__00000032940_ZNF648                                            94.36%    failed      4.22%
+  97  Equus_caballus__Horse__00000001421_ZNF648                                          86.17%    failed      0.00%
+  98  Hucho_hucho__Huchen__00000013326_ZNF648                                            86.29%    passed      7.89%
+  99  Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00000008687_ZNF648                 86.24%    failed      0.00%
+ 100  Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00005026213_ZNF648                 86.24%    failed      0.00%
+ 101  Mus_Musculus__Mouse__00000083370_ZNF648                                            87.19%    failed      0.00%
+ 102  Homo_sapiens__Human__00000344129_ZNF648                                            86.14%    failed      0.00%
+ 103  Sus_scrofa__Pig__00070021813_ZNF648                                                90.53%    failed      0.00%
+ 104  Tupaia_belangeri__Tree_Shrew__00000006323_ZNF808                                   82.97%    failed      0.00%
+ 105  Oreochromis_niloticus__Tilapia__00000009326_ZNF808                                 91.27%    failed      0.00%
+ 106  Monodelphis_domestica__Opossum__00000010011_ZNF808                                 86.68%    failed      0.00%
+ 107  Ciona_savignyi_00000016286_ZNF808                                                  87.07%    failed      0.00%
+ 108  Pongo_abelii__Orangutan__00000024664_ZNF808                                        77.97%    failed      0.04%
+ 109  Ciona_savignyi_00000001148_ZNF808                                                  83.39%    failed      0.00%
+ 110  Ciona_savignyi_00000001157_ZNF808                                                  86.17%    failed      0.00%
+ 111  Oreochromis_niloticus__Tilapia__00000021411_ZNF808                                 89.44%    failed      0.15%
+ 112  Ailuropoda_melanoleuca__Panda__00000015232_ZNF808                                  84.41%    failed      0.00%
+ 113  Monodelphis_domestica__Opossum__00000007252_ZNF808                                 79.36%    failed      0.00%
+ 114  Myotis_lucifugus__Microbat__00000014357_ZNF808                                     82.12%    failed      0.00%
+ 115  Loxodonta_africana__Elephant__00000005260_ZNF808                                   84.51%    failed      0.00%
+ 116  Echinops_telfairi__Lesser_hedgehog_tenrec__00000000372_ZNF808                      86.44%    failed      0.03%
+ 117  Tursiops_truncatus__Dolphin__00000012673_ZNF808                                    80.73%    failed      0.01%
+ 118  Tursiops_truncatus__Dolphin__00000012675_ZNF808                                    86.56%    failed      4.10%
+ 119  Tursiops_truncatus__Dolphin__00000012680_ZNF808                                    82.19%    failed      1.50%
+ 120  Tursiops_truncatus__Dolphin__00000012682_ZNF808                                    85.29%    failed      0.00%
+ 121  Ochotona_princeps__Pika__00000000435_ZNF808                                        93.61%    failed      0.27%
+ 122  Mustela_putorius_furo__Ferret__00000001730_ZNF808                                  74.65%    failed      0.00%
+ 123  Ciona_intestinalis_00000034189_ZNF808                                              92.29%    failed      0.00%
+ 124  Procavia_capensis__Hyrax__00000002033_ZNF808                                       94.63%    failed      0.97%
+ 125  Poecilia_formosa__Amazon_molly__00000002193_ZNF808                                 91.17%    passed      8.76%
+ 126  Pteropus_vampyrus__Megabat__00000004573_ZNF808                                     85.92%    failed      0.00%
+ 127  Chlorocebus_sabaeus__Vervet-AGM__00000016060_ZNF808                                78.36%    failed      0.00%
+ 128  Tupaia_belangeri__Tree_Shrew__00000003707_ZNF808                                   82.36%    failed      0.00%
+ 129  Dasypus_novemcinctus__Armadillo__00000031770_ZNF808                                84.48%    failed      0.04%
+ 130  Otolemur_garnettii__Bushbaby__00000015860_ZNF808                                   74.09%    failed      0.00%
+ 131  Oryctolagus_cuniculus__Rabbit__00000010228_ZNF808                                  84.04%    failed      0.00%
+ 132  Anolis_carolinensis__Anole_lizard__00000021476_ZNF808                              81.24%    failed      0.00%
+ 133  Ovis_aries__Sheep__00000002647_ZNF808                                              94.44%    failed      0.89%
+ 134  Pelodiscus_sinensis__Chinese_softshell_turtle__00000009437_ZNF808                  87.88%    failed      0.30%
+ 135  Sarcophilus_harrisii__Tasmanian_devil__00000005479_ZNF808                          76.60%    failed      0.00%
+ 136  Sarcophilus_harrisii__Tasmanian_devil__00000005920_ZNF808                          74.55%    failed      0.01%
+ 137  Sorex_araneus__Shrew__00000001397_ZNF808                                           87.58%    failed      0.00%
+ 138  Ornithorhynchus_anatinus__Platypus__00000006773_ZNF808                             84.51%    failed      0.00%
+ 139  Echinops_telfairi__Lesser_hedgehog_tenrec__00000005518_ZNF808                      82.19%    failed      0.86%
+ 140  Echinops_telfairi__Lesser_hedgehog_tenrec__00000010929_ZNF808                      84.87%    failed      0.01%
+ 141  Macaca_mulatta__Macaque__00000013629_ZNF808                                        77.48%    failed      0.00%
+ 142  Vicugna_pacos__Alpaca__00000005640_ZNF808                                          93.39%    passed     11.71%
+ 143  Notamacropus_eugenii__Wallaby__00000006447_ZNF808                                  84.68%    failed      0.04%
+ 144  Rattus_norvegicus__Rat__00000034962_ZNF808                                         85.90%    failed      0.00%
+ 145  Ictidomys_tridecemlineatus__Squirrel__00000026219_ZNF808                           88.29%    failed      0.22%
+ 146  Jaculus_jaculus__Lesser_Egyptian_jerboa__00000009711_ZNF808                        86.24%    failed      0.00%
+ 147  Mesocricetus_auratus__Golden_Hamster__00000021171_ZNF808                           85.90%    failed      0.00%
+ 148  Cricetulus_griseus__Chinese_hamster_CHOK1GS__00000011745_ZNF808                    85.90%    failed      0.00%
+ 149  Cavia_porcellus__Guinea_Pig__00000025109_ZNF808                                    80.07%    failed      0.00%
+ 150  Nannospalax_galili__Upper_Galilee_mountains_blind_mole_rat__00000000729_ZNF808     83.87%    failed      0.00%
+ 151  Microtus_ochrogaster__Prairie_vole__00000022678_ZNF808                             85.90%    failed      0.00%
+ 152  Heterocephalus_glaber_Naked_mole-rat_female_00100005126_ZNF808                     82.39%    failed      4.35%
+ 153  Fukomys_damarensis__Damara_mole_rat__00000005188_ZNF808                            85.90%    failed      0.00%
+ 154  Fukomys_damarensis__Damara_mole_rat__00000008845_ZNF808                            77.75%    failed      0.00%
+ 155  Ictidomys_tridecemlineatus__Squirrel__00000024900_ZNF808                           74.02%    failed      0.00%
+ 156  Chinchilla_lanigera__Long-tailed_chinchilla__00000002376_ZNF808                    79.51%    failed      1.49%
+ 157  Ictidomys_tridecemlineatus__Squirrel__00000021701_ZNF808                           85.90%    failed      0.00%
+ 158  Sus_scrofa__Pig__00000032532_ZNF808                                                88.29%    passed     29.54%
+ 159  Cricetulus_griseus__Chinese_hamster_CHOK1GS__00001001231_ZNF808                    84.68%    failed      0.00%
+ 160  Nannospalax_galili__Upper_Galilee_mountains_blind_mole_rat__00000016122_ZNF808     89.58%    failed      0.05%
+ 161  Propithecus_coquereli__Coquerel_s_sifaka__00000020153_ZNF808                       79.26%    failed      0.01%
+ 162  Macaca_nemestrina__Pig-tailed_macaque__00000041484_ZNF808                          77.48%    failed      0.00%
+ 163  Macaca_fascicularis__Crab-eating_macaque__00000010465_ZNF808                       77.48%    failed      0.00%
+ 164  Saimiri_boliviensis_boliviensis__Bolivian_squirrel_monkey__00000026850_ZNF808      79.90%    failed      0.03%
+ 165  Nomascus_leucogenys__Gibbon__00000007311_ZNF808                                    77.97%    failed      0.05%
+ 166  Rhinopithecus_roxellana__Golden_snub-nosed_monkey__00000002337_ZNF808              77.99%    failed      0.07%
+ 167  Papio_anubis__Olive_baboon__00000045668_ZNF808                                     77.09%    failed      0.00%
+ 168  Cercocebus_atys__Sooty_mangabey__00000027085_ZNF808                                77.09%    failed      0.01%
+ 169  Colobus_angolensis_palliatus__Angola_colobus__00000005567_ZNF808                   77.99%    failed      0.12%
+ 170  Aotus_nancymaae__Ma_s_night_monkey__00000013798_ZNF808                             79.21%    failed      0.03%
+ 171  Pan_troglodytes__Chimpanzee__00000081509_ZNF808                                    89.56%    failed      0.00%
+ 172  Mandrillus_leucophaeus__Drill__00000027650_ZNF808                                  83.92%    passed     10.03%
+ 173  Pan_paniscus__Bonobo__00000030160_ZNF808                                           77.97%    failed      0.02%
+ 174  Carlito_syrichta__Tarsier__00000018279_ZNF808                                      78.12%    failed      0.11%
+ 175  Mus_spretus__Algerian_mouse__0081867_ZNF808                                        85.90%    failed      0.00%
+ 176  Mus_pahari__Shrew_mouse__0015432_ZNF808                                            85.90%    failed      0.00%
+ 177  Mus_caroli__Ryukyu_mouse__0078555_ZNF808                                           85.90%    failed      0.00%
+ 178  Gorilla_gorilla_gorilla__Gorilla__00000023898_ZNF808                               77.97%    failed      0.01%
+ 179  Capra_hircus__Goat__00000012514_ZNF808                                             85.26%    passed      5.86%
+ 180  Capra_hircus__Goat__00000009631_ZNF808                                             84.80%    failed      0.00%
+ 181  Capra_hircus__Goat__00000027562_ZNF808                                             85.09%    failed      0.74%
+ 182  Eptatretus_burgeri__Hagfish__00000005073_ZNF808                                    88.02%    failed      0.00%
+ 183  Felis_catus__Cat__00000040419_ZNF808                                               86.31%    failed      0.00%
+ 184  Felis_catus__Cat__00000033927_ZNF808                                               83.34%    failed      0.00%
+ 185  Oryzias_melastigma__Indian_medaka__00000000737_ZNF808                              89.53%    failed      0.13%
+ 186  Anabas_testudineus__Climbing_perch__00000034318_ZNF808                             91.24%    failed      0.01%
+ 187  Haplochromis_burtoni__Burton_s_mouthbrooder__00000002620_ZNF808                    88.41%    failed      0.30%
+ 188  Oryzias_melastigma__Indian_medaka__00000017182_ZNF808                              85.73%    failed      0.00%
+ 189  Astatotilapia_calliptera__Eastern_happy__00000025926_ZNF808                        84.90%    failed      0.00%
+ 190  Astatotilapia_calliptera__Eastern_happy__00000028952_ZNF808                        82.34%    failed      0.00%
+ 191  Microcebus_murinus__Mouse_Lemur__00000025306_ZNF808                                76.70%    failed      0.02%
+ 192  Scophthalmus_maximus__Turbot__00000016986_ZNF808                                   84.56%    failed      0.00%
+ 193  Maylandia_zebra__Zebra_mbuna__00005029802_ZNF808                                   83.41%    failed      0.00%
+ 194  Maylandia_zebra__Zebra_mbuna__00005033534_ZNF808                                   85.85%    failed      0.05%
+ 195  Pygocentrus_nattereri__Red-bellied_piranha__00000006072_ZNF808                     92.56%    failed      0.00%
+ 196  Pygocentrus_nattereri__Red-bellied_piranha__00000037443_ZNF808                     80.95%    failed      0.00%
+ 197  Pygocentrus_nattereri__Red-bellied_piranha__00000006458_ZNF808                     87.80%    failed      0.00%
+ 198  Pygocentrus_nattereri__Red-bellied_piranha__00000006391_ZNF808                     88.83%    failed      0.35%
+ 199  Pygocentrus_nattereri__Red-bellied_piranha__00000010880_ZNF808                     82.61%    failed      0.00%
+ 200  Pygocentrus_nattereri__Red-bellied_piranha__00000015741_ZNF808                     83.85%    failed      0.00%
+ 201  Pygocentrus_nattereri__Red-bellied_piranha__00000024167_ZNF808                     84.53%    failed      0.00%
+ 202  Poecilia_latipinna__Sailfin_molly__00000026663_ZNF808                              85.39%    failed      0.01%
+ 203  Pygocentrus_nattereri__Red-bellied_piranha__00000008896_ZNF808                     89.07%    failed      0.00%
+ 204  Seriola_lalandi_dorsalis__Yellowtail_amberjack__00000020855_ZNF808                 86.85%    failed      0.00%
+ 205  Ursus_maritimus__Polar_bear__00000014195_ZNF808                                    79.97%    failed      0.39%
+ 206  Ursus_americanus__American_black_bear__00000004514_ZNF808                          84.95%    failed      0.00%
+ 207  Sphenodon_punctatus__Tuatara__00000024245_ZNF808                                   93.51%    passed      9.41%
+ 208  Equus_asinus_asinus__Donkey__00005003059_ZNF808                                    85.48%    failed      0.00%
+ 209  Canis_lupus_dingo__Dingo__00020024026_ZNF808                                       80.39%    failed      0.00%
+ 210  Canis_lupus_dingo__Dingo__00020024054_ZNF808                                       81.04%    failed      0.00%
+ 211  Canis_lupus_dingo__Dingo__00020022838_ZNF808                                       84.19%    failed      0.00%
+ 212  Ursus_americanus__American_black_bear__00000017628_ZNF808                          84.80%    failed      0.00%
+ 213  Ursus_americanus__American_black_bear__00000003448_ZNF808                          77.60%    failed      0.00%
+ 214  Gopherus_agassizii__Agassiz_s_desert_tortoise__00000000097_ZNF808                  96.51%    passed     98.56%
+ 215  Vulpes_vulpes__Red_fox__00000002048_ZNF808                                         81.04%    failed      0.00%
+ 216  Ursus_americanus__American_black_bear__00000001993_ZNF808                          83.56%    failed      0.00%
+ 217  Meleagris_gallopavo__Turkey__00000007125_ZNF808                                    93.24%    failed      0.01%
+ 218  Meriones_unguiculatus__Mongolian_gerbil__00000013901_ZNF808                        85.92%    failed      0.00%
+ 219  Nothoprocta_perdicaria__Chilean_tinamou__00000000093_ZNF808                        92.02%    failed      2.03%
+ 220  Bos_mutus__Wild_yak__00000028441_ZNF808                                            85.90%    failed      0.00%
+ 221  Bos_mutus__Wild_yak__00000028472_ZNF808                                            92.05%    failed      0.92%
+ 222  Urocitellus_parryii__Arctic_ground_squirrel__00010013381_ZNF808                    82.70%    failed      0.00%
+ 223  Peromyscus_maniculatus_bairdii__Northern_American_deer_mouse__00000008154_ZNF808   85.90%    failed      0.00%
+ 224  Chelonoidis_abingdonii__Abingdon_island_giant_tortoise__00000017922_ZNF808         95.80%    passed      8.45%
+ 225  Urocitellus_parryii__Arctic_ground_squirrel__00010027282_ZNF808                    78.41%    failed      0.00%
+ 226  Urocitellus_parryii__Arctic_ground_squirrel__00010021360_ZNF808                    80.97%    failed      0.00%
+ 227  Apteryx_owenii__Little_spotted_kiwi__00000017745_ZNF808                            92.80%    failed      0.00%
+ 228  Castor_canadensis__American_beaver__00000009803_ZNF808                             79.95%    failed      0.00%
+ 229  Prolemur_simus__Greater_bamboo_lemur__00000035432_ZNF808                           81.63%    failed      3.43%
+ 230  Melopsittacus_undulatus__Budgerigar__00000009199_ZNF808                            92.12%    failed      0.06%
+ 231  Spermophilus_dauricus__Daurian_ground_squirrel__00000000112_ZNF808                 77.07%    failed      0.00%
+ 232  Spermophilus_dauricus__Daurian_ground_squirrel__00000005740_ZNF808                 85.90%    failed      0.00%
+ 233  Urocitellus_parryii__Arctic_ground_squirrel__00010029172_ZNF808                    80.19%    failed      0.00%
+ 234  Spermophilus_dauricus__Daurian_ground_squirrel__00000007754_ZNF808                 81.24%    failed      0.00%
+ 235  Notechis_scutatus__Mainland_tiger_snake__00000003363_ZNF808                        92.78%    passed     12.55%
+ 236  Urocitellus_parryii__Arctic_ground_squirrel__00010022771_ZNF808                    79.73%    failed      0.00%
+ 237  Mus_spicilegus__Steppe_mouse__00000003671_ZNF808                                   85.90%    failed      0.00%
+ 238  Cricetulus_griseus__Chinese_hamster_CHOK1GS__00015007919_ZNF808                    90.07%    failed      0.00%
+ 239  Neovison_vison__American_mink__00000030259_ZNF808                                  81.73%    failed      0.00%
+ 240  Bos_mutus__Wild_yak__00000004436_ZNF808                                            88.05%    failed      0.97%
+ 241  Castor_canadensis__American_beaver__00000004640_ZNF808                             85.90%    failed      0.00%
+ 242  Phascolarctos_cinereus__Koala__00000051282_ZNF808                                  86.05%    failed      0.00%
+ 243  Prolemur_simus__Greater_bamboo_lemur__00000019818_ZNF808                           81.75%    failed      0.16%
+ 244  Spermophilus_dauricus__Daurian_ground_squirrel__00000020806_ZNF808                 80.51%    failed      0.00%
+ 245  Phascolarctos_cinereus__Koala__00000028519_ZNF808                                  80.07%    failed      0.00%
+ 246  Phascolarctos_cinereus__Koala__00000053020_ZNF808                                  75.65%    failed      0.00%
+ 247  Phascolarctos_cinereus__Koala__00000044415_ZNF808                                  84.73%    failed      0.00%
+ 248  Spermophilus_dauricus__Daurian_ground_squirrel__00000023474_ZNF808                 83.68%    failed      0.00%
+ 249  Pogona_vitticeps__Central_bearded_dragon__00000004751_ZNF808                       90.75%    failed      0.00%
+ 250  Pogona_vitticeps__Central_bearded_dragon__00000005701_ZNF808                       86.41%    failed      0.00%
+ 251  Meriones_unguiculatus__Mongolian_gerbil__00000018018_ZNF808                        85.41%    failed      1.32%
+ 252  Bison_bison_bison__American_bison__00000028374_ZNF808                              87.14%    failed      0.00%
+ 253  Cricetulus_griseus__Chinese_hamster_CHOK1GS__00015036185_ZNF808                    85.90%    failed      0.00%
+ 254  Piliocolobus_tephrosceles__Ugandan_red_Colobus__00000024968_ZNF808                 77.63%    failed      0.00%
+ 255  Salvator_merianae__Argentine_black_and_white_tegu__00000004683_ZNF808              76.36%    failed      0.00%
+ 256  Marmota_marmota_marmota__Alpine_marmot__00000004768_ZNF808                         85.90%    failed      0.00%
+ 257  Marmota_marmota_marmota__Alpine_marmot__00000011743_ZNF808                         83.51%    failed      0.00%
+ 258  Marmota_marmota_marmota__Alpine_marmot__00000011781_ZNF808                         87.46%    failed      0.00%
+ 259  Marmota_marmota_marmota__Alpine_marmot__00000022719_ZNF808                         75.82%    failed      0.00%
+ 260  Marmota_marmota_marmota__Alpine_marmot__00000010926_ZNF808                         78.58%    failed      0.00%
+ 261  Marmota_marmota_marmota__Alpine_marmot__00000005962_ZNF808                         81.04%    failed      0.00%
+ 262  Crocodylus_porosus__Australian_saltwater_crocodile__00005013327_ZNF808             90.95%    failed      0.00%
+ 263  Bos_taurus__Cow__00000051990_ZNF808                                                88.88%    failed      0.07%
+ 264  Theropithecus_gelada__Gelada__00000006186_ZNF808                                   77.48%    failed      0.00%
+ 265  Vombatus_ursinus__Common_wombat__00010009278_ZNF808                                80.61%    failed      0.00%
+ 266  Equus_caballus__Horse__00000020579_ZNF808                                          80.70%    failed      0.01%
+ 267  Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00000011973_ZNF808                 88.58%    passed     23.54%
+ 268  Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00000011963_ZNF808                 88.88%    failed      0.10%
+ 269  Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00005036461_ZNF808                 88.88%    failed      0.07%
+ 270  Mus_Musculus__Mouse__00000141137_ZNF808                                            83.00%    failed      0.00%
+ 271  Homo_sapiens__Human__00000352846_ZNF808                                            77.97%    failed      0.01%
+ 272  Sus_scrofa__Pig__00070027524_ZNF808                                                88.63%    passed     22.60%
+WARNING: 272 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                              85.78%  227 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Cricetulus_griseus__Chinese_hamster_CHOK1GS__00015022122_ZNF648 is identical to Cricetulus_griseus__Chinese_hamster_CHOK1GS__00001005615_ZNF648 but kept for subsequent analysis
+NOTE: Canis_lupus_dingo__Dingo__00000033589_ZNF648 is identical to Canis_lupus_dingo__Dingo__00020018655_ZNF648 but kept for subsequent analysis
+NOTE: Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00005026213_ZNF648 is identical to Bos_taurus__Cow__00000055347_ZNF648 but kept for subsequent analysis
+NOTE: Cricetulus_griseus__Chinese_hamster_CHOK1GS__00015036185_ZNF808 is identical to Cricetulus_griseus__Chinese_hamster_CHOK1GS__00000011745_ZNF808 but kept for subsequent analysis
+NOTE: Marmota_marmota_marmota__Alpine_marmot__00000004768_ZNF808 is identical to Ictidomys_tridecemlineatus__Squirrel__00000021701_ZNF808 but kept for subsequent analysis
+NOTE: Bos_indicus_x_Bos_taurus__Hybrid_-_Bos_Indicus__00005036461_ZNF808 is identical to Bos_taurus__Cow__00000051990_ZNF808 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.377 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 115065)...
+
+NOTE: 556 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -182391.582
+2. Current log-likelihood: -166268.368
+3. Current log-likelihood: -165782.082
+4. Current log-likelihood: -165728.387
+5. Current log-likelihood: -165716.193
+6. Current log-likelihood: -165712.117
+7. Current log-likelihood: -165710.654
+8. Current log-likelihood: -165710.143
+Optimal log-likelihood: -165709.988
+Gamma shape alpha: 1.012
+Parameters optimization took 8 rounds (106.932 sec)
+Computing ML distances based on estimated model parameters... 20.477 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.037 seconds
+Log-likelihood of BIONJ tree: -167856.391
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 54.098 second
+Computing log-likelihood of 98 initial trees ... 507.939 seconds
+Current best score: -165709.988
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -165287.707
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -165254.270
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -165208.935
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -165202.375
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -165199.638
+Iteration 10 / LogL: -165277.677 / Time: 0h:30m:44s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 20: -165162.936
+Iteration 20 / LogL: -165162.936 / Time: 0h:47m:38s
+Finish initializing candidate tree set (20)
+Current best tree score: -165162.936 / CPU time: 2649.465
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -165150.075
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -165137.119
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -165135.864
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -165135.217
+Iteration 30 / LogL: -165600.963 / Time: 1h:2m:31s (3h:29m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -165131.979
